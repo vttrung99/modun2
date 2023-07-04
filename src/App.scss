@@ -1,0 +1,25 @@
+.App {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+.containers{
+  margin-top: 10px;
+}
+.card-container{
+ 
+  height: auto;
+  margin-top: 10px;
+}
+.img-container{
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+
+ 
+}

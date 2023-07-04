@@ -1,0 +1,27 @@
+.card {
+    width: 18rem;
+    display: flex;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+  }
+  
