@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Nav.scss'
 export default function Nav() {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container_fluid">
                 <a className="navbar-brand" href="#">
-                    SHOP KHANH LUU
+                <Link to='/Home'>SHOP KHÁNH LƯU</Link> 
                 </a>
                 <button
                     className="navbar-toggler"
@@ -22,19 +23,19 @@ export default function Nav() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <a className="nav-link " aria-current="page" href="#">Home </a>
+                        <a className="nav-link " aria-current="page" href="#">Mua Thêm</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#"> Plant</a>
+                        <a className="nav-link" href="#"> <Link to='/Man'>Nam</Link></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Cactus</a>
+                        <a className="nav-link" href="#"><Link to='/Woment'>Nữ</Link></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Orchid</a>
+                        <a className="nav-link" href="#"><Link to='/Goft'>Goft</Link></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Dried Bouquets</a>
+                        <a className="nav-link" href="#"><Link to='/Child'>Child</Link></a>
                     </li>
                 </ul>
             </div>
@@ -48,11 +49,11 @@ export default function Nav() {
                     />
 
                 </div>
-                <div className='icon'>
+                <div className='icon flex'>
                     {/* <button><Link to="/login">log in</Link></button> */}
-                    <button>aaaa</button>
-                    <i className="icon_img fa-solid fa-user"></i>
-                    <i className="icon_img fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i className="icon_img fa-solid fa-user" ></i>
+                    <Link className="icon_img fa-solid fa-cart-shopping" to='/Cart'></Link>
                 </div>
 
             </div>
