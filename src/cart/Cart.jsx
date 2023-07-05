@@ -23,7 +23,7 @@ export default function Cart() {
                   <div className="row mb-4 d-flex justify-content-between align-items-center">
                     <div className="col-md-2 col-lg-2 col-xl-2">
                       <img
-                        src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp"
+                        src="https://kingshoes.vn/data/upload/media/jordan-1-mid-tuft-orange-bq6931-802-king-shoes-sneaker-real-hcm-1624273330.jpeg"
                         className="img-fluid rounded-3"
                         alt="Cotton T-shirt"
                       />
@@ -67,7 +67,7 @@ export default function Cart() {
                   <div className="row mb-4 d-flex justify-content-between align-items-center">
                     <div className="col-md-2 col-lg-2 col-xl-2">
                       <img
-                        src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img6.webp"
+                        src="https://kingshoes.vn/data/upload/media/gia%CC%80y-nike-air-zoom-alphafly-next-flyknit-ci9925-700-chi%CC%81nh-ha%CC%83ng-de%CC%82%CC%81n-king-shoes-3-1645689177.jpeg"
                         className="img-fluid rounded-3"
                         alt="Cotton T-shirt"
                       />
@@ -111,7 +111,7 @@ export default function Cart() {
                   <div className="row mb-4 d-flex justify-content-between align-items-center">
                     <div className="col-md-2 col-lg-2 col-xl-2">
                       <img
-                        src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img7.webp"
+                        src="https://kingshoes.vn/data/upload/media/nike-dunk-hi-cu7544-400-king-shoes-sneaker-real-hcm35-1623475900.jpg"
                         className="img-fluid rounded-3"
                         alt="Cotton T-shirt"
                       />
