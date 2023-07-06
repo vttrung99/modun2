@@ -2,6 +2,7 @@ import React from 'react'
 import './Man.scss'
 import { man } from '../../component/data'
 import { convertToVND } from '@mieuteacher/meomeojs'
+import Footer from '../../component/footer/Footer'
 
 export default function Man() {
     return (
@@ -45,7 +46,7 @@ export default function Man() {
                 </div>
             ))}
 
-
+            <Footer></Footer>
         </div>
     )
 }

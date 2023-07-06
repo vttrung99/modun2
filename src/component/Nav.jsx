@@ -52,7 +52,7 @@ export default function Nav() {
                 <div className='icon flex'>
                     {/* <button><Link to="/login">log in</Link></button> */}
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <i className="icon_img fa-solid fa-user" ></i>
+                    <Link className="icon_img fa-solid fa-user" to='/Login'></Link>
                     <Link className="icon_img fa-solid fa-cart-shopping" to='/Cart'></Link>
                 </div>
 

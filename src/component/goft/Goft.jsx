@@ -2,6 +2,7 @@ import React from 'react'
 import {goft} from '../../component/data'
 import { convertToVND } from '@mieuteacher/meomeojs'
 import './Goft.scss'
+import Footer from '../footer/Footer'
 export default function Goft() {
   return (
     <div className='goft'>
@@ -23,6 +24,7 @@ export default function Goft() {
                 </div>
             </div>
             })}
+            <Footer></Footer>
     </div>
   )
 }

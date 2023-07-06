@@ -8,7 +8,7 @@ import Goft from '../component/goft/Goft';
 import Child from './child/Child';
 import Footer from '../component/footer/Footer'
 import Cart from '../cart/Cart';
-// import Login from '../login/Login';
+import Login from '../login/Login';
 export default function Router() {
   return (
     <div>
@@ -22,9 +22,9 @@ export default function Router() {
         <Route path='/Goft' element={<Goft></Goft>}></Route>
         <Route path='/Child' element={<Child></Child>}></Route>
         <Route path='/Cart' element={<Cart></Cart>}></Route>
-        {/* <Route path='/Login' element={<Login></Login>}></Route> */}
+        <Route path='/Login' element={<Login></Login>}></Route>
       </Routes>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   )
 }

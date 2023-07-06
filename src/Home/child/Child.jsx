@@ -2,6 +2,7 @@ import React from 'react'
 import {child} from '../../component/data'
 import { convertToVND } from '@mieuteacher/meomeojs'
 import './Child.scss'
+import Footer from '../../component/footer/Footer'
 export default function Child() {
   return (
     <div className='child'>
@@ -24,7 +25,7 @@ export default function Child() {
                 </div>
             </div>
             })}
-            
+            <Footer></Footer>
     </div>
   )
 }

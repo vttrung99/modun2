@@ -2,6 +2,9 @@
 import { useDispatch, useSelector } from 'react-redux'
 import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { userLoginActions } from '../store/userLoginStore'
+import Loading from '../loading/Loading'
+import './Login.scss'
 export default function Login() {
     const navigate = useNavigate();
     const dispatch = useDispatch()
@@ -13,7 +16,7 @@ export default function Login() {
                 dispatch(userLoginActions.checkTokenLocal(localStorage.getItem("token")))
             }
         } else {
-            navigate('/')``
+            navigate('/Woment')
         }
     }, [userLoginStore.userInfor])
     return (
@@ -23,7 +26,8 @@ export default function Login() {
             }
             <form onSubmit={(eventForm) => {
                 eventForm.preventDefault(); // vô hiệu hành vi mặc định form
-
+                
+                console.log('logu1121212',eventForm.target.inputUserName.value,eventForm.target.inputPassword.value);
                 if (eventForm.target.inputUserName.value == "" || eventForm.target.inputPassword.value == "") {
                     alert("vui lòng điền đầy đủ các trường")
                     return

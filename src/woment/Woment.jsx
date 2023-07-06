@@ -2,6 +2,7 @@ import React from 'react'
 import {woment}  from '../component/data'
 import { convertToVND } from '@mieuteacher/meomeojs'
 import './Woment.scss'
+import Footer from '../component/footer/Footer'
 export default function Woment() {
   return (
     <div className='woment'>
@@ -11,7 +12,7 @@ export default function Woment() {
                     src={value.img}
                     className="card-img-top"
                     alt="Fissure in Sandstone"
-                    style={{width:"190px"}}
+                    style={{width:"190px",height:"200px"}}
                 />
                 <div className="card-body">
                     <h5 className="card-title">{convertToVND(value.price)}</h5>
@@ -24,6 +25,7 @@ export default function Woment() {
                 </div>
             </div>
             })}
+            <Footer></Footer>
     </div>
   )
 }

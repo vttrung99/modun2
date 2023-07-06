@@ -1,11 +1,11 @@
 import axios from "axios";
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-const CryptoJS = require("crypto-js");
-
+const CryptoJS = require("crypto-js");//npm i crypto-js mã hoá mk
 const login = createAsyncThunk(
     "login",
     async (inforLogin) => {
         // localhost:4000/users
+        console.log('long infor login',inforLogin );
         let res = await axios.get(process.env.REACT_APP_SERVER_JSON + 'users');
         return {
             users: res.data,
@@ -24,7 +24,6 @@ const checkTokenLocal = createAsyncThunk(
         }
     }
 )
-
 function createToken(userObj, privateKey) {
     return CryptoJS.AES.encrypt(JSON.stringify(userObj), privateKey).toString();
 }
