@@ -24,7 +24,14 @@
         "firstName": "Thu",
         "lastName": "Hương",
         "email": "thuhuong@gmail.com",
-        "avatar": "https://firebasestorage.googleapis.com/v0/b/learnfirebase-afb02.appspot.com/o/userAvatars%2Fadmin.jpg?alt=media&token=3482a408-7ed1-41c6-b18f-eb730dc02623"
+        "avatar": "https://firebasestorage.googleapis.com/v0/b/learnfirebase-afb02.appspot.com/o/userAvatars%2Fadmin.jpg?alt=media&token=3482a408-7ed1-41c6-b18f-eb730dc02623",
+        "carts": [
+          {
+            "productId": 1,
+            "quantity": 5,
+            "des": "giao lẹ lẹ"
+          }
+        ]
       },
       {
         "id": 1,
@@ -35,47 +42,6 @@
         "lastName": "Nguyễn",
         "email": "thuhuong@gmail.com",
         "avatar": "https://firebasestorage.googleapis.com/v0/b/learnfirebase-afb02.appspot.com/o/userAvatars%2Fadmin.jpg?alt=media&token=3482a408-7ed1-41c6-b18f-eb730dc02623"
-      }
-    ],
-    "carts": [
-      {
-        "id": 1,
-        "userId": 1,
-        "products": [
-          {
-            "productId": 1,
-            "quantity": 5,
-            "des": "giao lẹ lẹ"
-          }
-        ]
-      }
-    ],
-    "receipts": [
-      {
-        "id": 1,
-        "userId": 1,
-        "totalPrice": 3000,
-        "paid": true,
-        "products": [
-          {
-            "productId": 1,
-            "quantity": 5,
-            "des": "giao lẹ lẹ"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "userId": 1,
-        "totalPrice": 3000,
-        "paid": true,
-        "products": [
-          {
-            "productId": 1,
-            "quantity": 5,
-            "des": "giao lẹ lẹ"
-          }
-        ]
       }
     ]
   }

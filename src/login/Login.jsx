@@ -16,7 +16,7 @@ export default function Login() {
                 dispatch(userLoginActions.checkTokenLocal(localStorage.getItem("token")))
             }
         } else {
-            navigate('/Woment')
+            navigate('/Man')
         }
     }, [userLoginStore.userInfor])
     return (
